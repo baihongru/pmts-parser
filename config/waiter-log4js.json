@@ -1,0 +1,23 @@
+{
+    "appenders": {
+        "out": {
+            "type": "stdout"
+        },
+        "waiter": {
+            "type": "file",
+            "filename": "logs/waiter.log",
+            "maxLogSize": 10485760,
+            "backups": 3
+        }
+    },
+    "categories": {
+        "default": {
+            "appenders": ["out"],
+            "level": "info"
+        },
+        "waiter": {
+            "appenders": ["waiter"],
+            "level": "info"
+        }
+    }
+}

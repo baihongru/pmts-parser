@@ -1,0 +1,22 @@
+{
+    "name": "pmts_parser",
+    "version": "1.1.0",
+    "description": "Parse the PMTS-MBFE log file.",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "baihr",
+    "license": "ISC",
+    "dependencies": {
+      "commander": "^7.1.0",
+      "log4js": "^6.3.0",
+      "redis": "^3.0.2",
+      "tail": "^2.2.0"
+    }
+  }
+  

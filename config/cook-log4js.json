@@ -1,0 +1,23 @@
+{
+    "appenders": {
+        "out": {
+            "type": "stdout"
+        },
+        "cook": {
+            "type": "file",
+            "filename": "logs/cook.log",
+            "maxLogSize": 10485760,
+            "backups": 3
+        }
+    },
+    "categories": {
+        "default": {
+            "appenders": ["out"],
+            "level": "info"
+        },
+        "cook": {
+            "appenders": ["cook"],
+            "level": "info"
+        }
+    }
+}
